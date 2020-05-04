@@ -99,10 +99,15 @@
   background: transparent;
   padding: 0 24px;
   font-size: 16px;
-  line-height: 52px;
+  width: 240px;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-family: "Open Sans Condensed", sans-serif;
   position: relative;
   color: #3e4651;
+  letter-spacing: 1.2;
   cursor: pointer;
   letter-spacing: 0.5px;
   margin-top: 50px;
@@ -119,7 +124,7 @@
     position: absolute;
     left: 0;
     top: 0;
-    width: 50%;
+    width: 53%;
     height: 48px;
     background: transparent;
     border: 2px solid #c2073c;
