@@ -1,0 +1,283 @@
+// media quieries
+
+$mainColor: #c2073c;
+
+@media screen and (max-width: 1120px) {
+	.header-wrapper ul li {
+		margin-left: 15px;
+		font-size: 0.9em;
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	.button-contacts-small-screen {
+		display: block;
+	}
+	.button-contacts-large-screen {
+		display: none;
+	}
+	.button-to-contacts {
+		margin-top: 4px;
+	}
+	.header {
+		justify-content: space-around;
+	}
+	nav {
+		display: none;
+	}
+	.home-section .text {
+		margin-top: 15px;
+	}
+	.pros-element {
+		width: 47%;
+	}
+	.recomendations {
+		padding-top: 30px;
+	}
+	.forms {
+		flex-direction: column;
+	}
+	.slides,
+	.slide {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 920px) {
+	.header-wrapper {
+		padding: 0;
+	}
+
+	.home-section {
+		margin-top: 100px;
+	}
+	.home-section .name {
+		font-size: 44px;
+	}
+	.home-section .spot {
+		font-size: 44px;
+		background-size: 56px;
+		background-position: 19px top;
+	}
+	.about-me {
+		padding-top: 75px;
+	}
+	.about-me .text {
+		flex-direction: column;
+		align-items: center;
+		margin-left: 0;
+	}
+	.about-me .text .description {
+		padding-left: 0;
+		padding-top: 30px;
+	}
+	.resume {
+		padding-top: 75px;
+	}
+	.resume .main-information {
+		flex-direction: column;
+		align-items: center;
+	}
+	.resume .main-information > div {
+		width: 100%;
+	}
+	.resume .experience {
+		margin-top: 40px;
+	}
+	.pros {
+		margin-top: 50px;
+	}
+	.pros-element {
+		width: 60%;
+		min-width: 480px;
+		margin: 0 auto;
+		margin-bottom: 45px;
+	}
+	.portfolio .article {
+		width: 48%;
+	}
+
+	.slides,
+	.slide {
+		width: 100%;
+	}
+
+	.prices {
+		padding-top: 75px;
+	}
+	.price {
+		width: 48%;
+	}
+	.contacts {
+		padding-top: 75px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.slides,
+	.slide {
+		height: 540px;
+	}
+	.nav label {
+		font-size: 124pt;
+		line-height: 480px;
+	}
+}
+
+@media screen and (max-width: 640px) {
+	.first-photo {
+		display: none;
+	}
+
+	.resume .main-information > div {
+		width: 100%;
+	}
+	.pros-element {
+		width: 80%;
+		min-width: 450px;
+	}
+	.portfolio .article {
+		width: 84%;
+		display: flex;
+		justify-content: center;
+		margin: 0 auto;
+		margin-bottom: 25px;
+	}
+	.portfolio .sign {
+		left: 15%;
+	}
+
+	.recomendation-user__photo img {
+		width: 75px;
+		min-height: 75px;
+	}
+	.recomendation-user__photo h3 {
+		font-size: 1.125em;
+	}
+	.second-part {
+		display: none;
+	}
+	.slides,
+	.slide {
+		height: 480px;
+	}
+	.nav label {
+		font-size: 124pt;
+		line-height: 380px;
+	}
+	.price {
+		width: 96%;
+		margin: 0 auto;
+		margin-bottom: 25px;
+	}
+	.titles h2 {
+		font-size: 1.5em;
+	}
+	#contact-form {
+		padding: 10px 0px 30px 0px;
+	}
+	#contact-form button[type="submit"] {
+		width: 100%;
+		padding: 15px 0;
+		font-size: 1.125em;
+	}
+	.footer {
+		padding: 20px 0;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.header {
+		justify-content: space-around;
+		flex-direction: column;
+		margin-top: 15px;
+		padding-bottom: 15px;
+	}
+
+	.header-name {
+		font-size: 1em;
+	}
+	.home-section .name {
+		margin-top: 25px;
+	}
+
+	.button-to-contacts {
+		text-transform: none;
+	}
+	.about-me .photo-ksenia img {
+		width: 100%;
+	}
+
+	.recomendation-user__text {
+		font-size: 14px;
+	}
+	.recomendation-user h3 {
+		font-size: 15px;
+	}
+
+	.slides,
+	.slide {
+		height: 450px;
+	}
+	.nav label {
+		font-size: 124pt;
+		line-height: 100px;
+		height: 25%;
+	}
+	.recomendation .content {
+		padding: 7px 13px;
+	}
+	.portfolio .article {
+		width: 100%;
+	}
+
+	.pros-element {
+		width: 100%;
+		min-width: 304px;
+	}
+
+	.recomendation-user__photo h3 {
+		font-size: 0.9em;
+	}
+	.recomendation-user__photo img {
+		width: 60px;
+		min-height: 60px;
+	}
+	.contacts {
+		padding-top: 0px;
+	}
+	#contact-form button[type="submit"] {
+		font-size: 1em;
+	}
+	.contacts-information .mail span,
+	.contacts-information .phone strong {
+		display: block;
+	}
+	.contacts-information .title {
+		font-size: 1.25em;
+	}
+}
+
+@media screen and (max-width: 380px) {
+	.slides,
+	.slide {
+		height: 520px;
+	}
+}
+
+@media screen and (max-width: 360px) {
+	.portfolio .sign {
+		font-size: 1em;
+	}
+	.pros-element {
+		width: 100%;
+		min-width: 260px;
+		.title h6 {
+			font-size: 14px;
+		}
+		font-size: 14px;
+	}
+	.recomendation .content {
+		padding: 7px 13px;
+	}
+}

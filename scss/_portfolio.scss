@@ -1,0 +1,52 @@
+// Portfolio
+
+$mainColor: #c2073c;
+
+.portfolio {
+	padding: 50px 30px 0 30px;
+	.titles {
+		border-left: 3px solid $mainColor;
+		padding-left: 10px;
+	}
+	h2 {
+		color: #111;
+		text-transform: uppercase;
+		font-size: 36px;
+		position: relative;
+	}
+	.articles {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		margin-top: 50px;
+	}
+	.article {
+		width: 32%;
+		position: relative;
+		margin-bottom: 25px;
+		&:hover {
+			transform: translateY(-5px);
+		}
+		img {
+			width: 100%;
+			opacity: 0.8;
+			filter: brightness(30%);
+			-webkit-filter: brightness(30%);
+			height: auto;
+			&:hover {
+				opacity: 1;
+				filter: brightness(50%);
+				-webkit-filter: brightness(50%);
+			}
+		}
+	}
+	.sign {
+		position: absolute;
+		top: 15%;
+		color: #ffffff;
+		font-size: 1.25em;
+		left: 20%;
+		margin-left: -30px;
+		font-weight: bold;
+	}
+}

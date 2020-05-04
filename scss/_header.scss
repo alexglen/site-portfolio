@@ -1,0 +1,82 @@
+// HEADER
+
+$mainColor: #c2073c;
+
+.header-wrapper {
+	width: 100%;
+	z-index: 999;
+	top: 0;
+	left: 0;
+	padding: 0 30px;
+	-webkit-transition: all 0.2s ease;
+	-o-transition: all 0.2s ease;
+	transition: all 0.2s ease;
+	margin: 0 auto;
+	position: fixed;
+	ul {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		li {
+			list-style: none;
+			margin-left: 20px;
+			position: relative;
+			padding: 0 5px;
+			&::after {
+				content: "";
+				position: absolute;
+				display: block;
+				background-color: $mainColor;
+				width: 0%;
+				height: 1px;
+				left: 0;
+				bottom: -8px;
+				-webkit-transition: all 0.2s ease;
+				-o-transition: all 0.2s ease;
+				transition: all 0.2s ease;
+			}
+			&:hover::after {
+				width: 100%;
+			}
+		}
+	}
+	.header-name {
+		color: $mainColor;
+	}
+	a {
+		text-decoration: none;
+		color: #111;
+	}
+}
+
+.header-active {
+	background-color: #fff;
+	-webkit-box-shadow: 0px 0px 10px 5px #4442;
+	box-shadow: 0px 0px 10px 5px #4442;
+}
+
+.header {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	height: 80px;
+	z-index: 999;
+	&-name {
+		font-size: 1.125em;
+		a {
+			color: $mainColor;
+			text-decoration: none;
+			font-family: "Libre Baskerville", serif;
+			font-size: 1.5em;
+			&:hover {
+				color: #343a40;
+			}
+		}
+	}
+}

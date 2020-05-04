@@ -1,0 +1,49 @@
+// PROS
+$mainColor: #c2073c;
+
+.pros {
+	margin-top: 100px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	&-element {
+		width: 30%;
+		padding: 30px 20px;
+		-webkit-box-shadow: 0 0 50px 5px #1112;
+		box-shadow: 0 0 50px 5px #1112;
+		-webkit-transition: all 0.3s ease;
+		-o-transition: all 0.3s ease;
+		transition: all 0.3s ease;
+		position: relative;
+		margin-bottom: 50px;
+		cursor: pointer;
+		color: rgba(0, 0, 0, 0.85);
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		position: relative;
+		&:hover {
+			transform: translateY(-10px);
+			background-color: #343a40;
+			color: #fff;
+			border-color: #fff;
+		}
+		.title {
+			position: absolute;
+			padding: 25px 10px 10px 25px;
+			border: 1px solid rgba(0, 0, 0, 0.75);
+			display: inline-block;
+			top: -10px;
+			left: -10px;
+			font-size: 0.95em;
+			h6 {
+				font-size: 16px;
+				font-weight: 600;
+			}
+		}
+		.subtitle {
+			margin-top: 25px;
+			line-height: 1.5;
+		}
+	}
+}

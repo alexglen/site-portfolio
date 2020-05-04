@@ -1,0 +1,181 @@
+// Contacts
+
+$mainColor: #c2073c;
+
+.contacts {
+	padding: 0 30px;
+	margin-top: 100px;
+	h2 {
+		color: #111;
+		text-transform: uppercase;
+		font-size: 36px;
+		position: relative;
+	}
+	.titles {
+		border-left: 3px solid $mainColor;
+		padding-left: 10px;
+		margin-top: 15px;
+	}
+	.forms {
+		display: flex;
+		justify-content: space-between;
+		margin-top: 50px;
+		.title {
+			margin-bottom: 25px;
+		}
+		#contact-form {
+			padding: 10px 20px 30px 20px;
+			input,
+			select,
+			textarea,
+			label {
+				font-size: 15px;
+				margin-bottom: 2px;
+				font-family: Arial, san-serif;
+			}
+			input,
+			select,
+			textarea {
+				width: 100%;
+				background: #fff;
+				border: 0;
+				-moz-border-radius: 4px;
+				-webkit-border-radius: 4px;
+				border-radius: 4px;
+				margin-bottom: 25px;
+				padding: 10px;
+			}
+			input:focus,
+			select:focus,
+			textarea:focus {
+				background-color: #e5e6e7;
+			}
+			textarea {
+				width: 100%;
+				height: 150px;
+			}
+			button[type="submit"] {
+				cursor: pointer;
+				width: 180px;
+				border: none;
+				background: $mainColor;
+				color: #fff;
+				margin: 0 0 5px;
+				padding: 10px;
+				border-radius: 5px;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+			button[type="submit"]:hover {
+				background-color: #343a40;
+				-webkit-transition: background 0.3s ease-in-out;
+				-moz-transition: background 0.3s ease-in-out;
+				transition: background-color 0.3s ease-in-out;
+			}
+			button[type="submit"]:active {
+				box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+			}
+
+			button[type="submit"] span {
+				margin-right: 9px;
+				margin-top: 5px;
+				font-size: 1.125em;
+			}
+
+			button[type="submit"] svg {
+				width: 1.5em;
+				height: 1.5em;
+			}
+			.required {
+				font-weight: bold;
+				color: #e5e6e7;
+			}
+		}
+	}
+}
+
+input:required,
+textarea:required {
+	box-shadow: none;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	-o-box-shadow: none;
+}
+#contact-form #failure,
+#success {
+	color: #6ea070;
+	display: none;
+}
+
+.contacts-information {
+	.title {
+		font-size: 1.75em;
+		margin-left: 15px;
+		margin-top: 5px;
+		margin-bottom: 15px;
+	}
+	p {
+		font-size: 1.125em;
+		text-indent: 15px;
+		margin-bottom: 15px;
+	}
+	.mail,
+	.phone {
+		margin-left: 15px;
+		font-size: 1.125em;
+		i {
+			margin-right: 7px;
+			color: $mainColor;
+		}
+		svg {
+			height: 1.35em;
+			width: 1.35em;
+			margin-top: 5px;
+			margin-right: 7px;
+		}
+		a {
+			text-decoration: none;
+			color: $mainColor;
+			span:hover {
+				color: #343a40;
+			}
+		}
+	}
+	.mail {
+		margin-top: 25px;
+		span {
+			color: $mainColor;
+		}
+	}
+	.note {
+		font-size: 1em;
+		line-height: 1.5;
+		font-style: italic;
+		margin-bottom: 50px;
+		margin-top: 25px;
+		margin-left: 25px;
+	}
+	.social-media {
+		font-size: 2em;
+		margin-top: 25px;
+	}
+	.insta a {
+		color: #b47144;
+		&:hover {
+			color: hsl(24, 83%, 23%);
+		}
+	}
+	.vk a {
+		color: #4a76a8;
+		&:hover {
+			color: #2c75c9;
+		}
+	}
+}
+
+// footer
+.footer {
+	background-color: rgb(31, 30, 30);
+	color: #fff;
+}
