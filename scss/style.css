@@ -177,7 +177,7 @@
       font-style: italic; }
   .about-me .text .description {
     padding-left: 50px;
-    padding-top: 50px; }
+    padding-top: 25px; }
   .about-me .photo-ksenia img {
     max-width: 420px;
     border-right: 20px solid #c2073c;
@@ -194,9 +194,11 @@
   position: relative; }
 
 .sertificate-small {
-  width: 180px;
-  margin-top: 10px;
-  cursor: pointer; }
+  cursor: pointer;
+  max-width: 920px;
+  margin: 0 auto;
+  width: 80%;
+  margin-top: 50px; }
 
 .sertificate-small img {
   width: 100%; }
@@ -291,7 +293,7 @@
       line-height: 1.5; }
 
 .portfolio {
-  padding: 50px 30px 0 30px; }
+  padding: 100px 30px 0 30px; }
   .portfolio .titles {
     border-left: 3px solid #c2073c;
     padding-left: 10px; }
@@ -565,7 +567,7 @@ input#img-6:checked ~ .nav-dots label#img-dot-6 {
 
 .contacts {
   padding: 0 30px;
-  margin-top: 100px; }
+  padding-top: 100px; }
   .contacts h2 {
     color: #111;
     text-transform: uppercase;
@@ -712,6 +714,14 @@ textarea:required {
     margin-left: 15px;
     font-size: 0.9em; } }
 @media screen and (max-width: 1024px) {
+  .about-me,
+  .resume,
+  .portfolio,
+  .recomendations,
+  .prices,
+  .contacts {
+    padding-top: 50px; }
+
   .button-contacts-small-screen {
     display: block; }
 
@@ -741,13 +751,20 @@ textarea:required {
 
   .slides,
   .slide {
-    width: 100%; } }
+    width: 100%; }
+
+  .about-me .text .description {
+    padding-top: 0; } }
 @media screen and (max-width: 920px) {
   .header-wrapper {
     padding: 0; }
 
+  .sertificate-small {
+    width: 90%;
+    margin-top: 25px; }
+
   .home-section {
-    margin-top: 100px; }
+    margin-top: 120px; }
 
   .home-section .name {
     font-size: 44px; }
@@ -756,9 +773,6 @@ textarea:required {
     font-size: 44px;
     background-size: 56px;
     background-position: 19px top; }
-
-  .about-me {
-    padding-top: 75px; }
 
   .about-me .text {
     flex-direction: column;
@@ -815,6 +829,15 @@ textarea:required {
     font-size: 124pt;
     line-height: 480px; } }
 @media screen and (max-width: 640px) {
+  .about-me,
+  .resume,
+  .portfolio,
+  .prices {
+    padding-top: 35px; }
+
+  .contacts .forms #contact-form {
+    padding: 25px 20px 30px 20px; }
+
   .first-photo {
     display: none; }
 
@@ -824,6 +847,9 @@ textarea:required {
   .pros-element {
     width: 80%;
     min-width: 450px; }
+
+  .portfolio .articles {
+    margin-top: 25px; }
 
   .portfolio .article {
     width: 84%;
@@ -875,8 +901,12 @@ textarea:required {
   .header {
     justify-content: space-around;
     flex-direction: column;
-    margin-top: 15px;
-    padding-bottom: 15px; }
+    margin-top: 40px;
+    padding-bottom: 40px; }
+
+  .sertificate-small {
+    width: 100%;
+    margin-top: 10px; }
 
   .header-name {
     font-size: 1em; }
@@ -886,6 +916,9 @@ textarea:required {
 
   .button-to-contacts {
     text-transform: none; }
+
+  .button-contacts-small-screen {
+    margin-top: 20px; }
 
   .about-me .photo-ksenia img {
     width: 100%; }
@@ -899,6 +932,9 @@ textarea:required {
   .slides,
   .slide {
     height: 450px; }
+
+  .slides {
+    margin-bottom: 25px; }
 
   .nav label {
     font-size: 124pt;

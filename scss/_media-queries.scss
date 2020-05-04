@@ -10,6 +10,14 @@ $mainColor: #c2073c;
 }
 
 @media screen and (max-width: 1024px) {
+	.about-me,
+	.resume,
+	.portfolio,
+	.recomendations,
+	.prices,
+	.contacts {
+		padding-top: 50px;
+	}
 	.button-contacts-small-screen {
 		display: block;
 	}
@@ -41,6 +49,9 @@ $mainColor: #c2073c;
 	.slide {
 		width: 100%;
 	}
+	.about-me .text .description {
+		padding-top: 0;
+	}
 }
 
 @media screen and (max-width: 920px) {
@@ -48,8 +59,13 @@ $mainColor: #c2073c;
 		padding: 0;
 	}
 
+	.sertificate-small {
+		width: 90%;
+		margin-top: 25px;
+	}
+
 	.home-section {
-		margin-top: 100px;
+		margin-top: 120px;
 	}
 	.home-section .name {
 		font-size: 44px;
@@ -59,9 +75,7 @@ $mainColor: #c2073c;
 		background-size: 56px;
 		background-position: 19px top;
 	}
-	.about-me {
-		padding-top: 75px;
-	}
+
 	.about-me .text {
 		flex-direction: column;
 		align-items: center;
@@ -125,6 +139,15 @@ $mainColor: #c2073c;
 }
 
 @media screen and (max-width: 640px) {
+	.about-me,
+	.resume,
+	.portfolio,
+	.prices {
+		padding-top: 35px;
+	}
+	.contacts .forms #contact-form {
+		padding: 25px 20px 30px 20px;
+	}
 	.first-photo {
 		display: none;
 	}
@@ -135,6 +158,9 @@ $mainColor: #c2073c;
 	.pros-element {
 		width: 80%;
 		min-width: 450px;
+	}
+	.portfolio .articles {
+		margin-top: 25px;
 	}
 	.portfolio .article {
 		width: 84%;
@@ -190,8 +216,13 @@ $mainColor: #c2073c;
 	.header {
 		justify-content: space-around;
 		flex-direction: column;
-		margin-top: 15px;
-		padding-bottom: 15px;
+		margin-top: 40px;
+		padding-bottom: 40px;
+	}
+
+	.sertificate-small {
+		width: 100%;
+		margin-top: 10px;
 	}
 
 	.header-name {
@@ -203,6 +234,9 @@ $mainColor: #c2073c;
 
 	.button-to-contacts {
 		text-transform: none;
+	}
+	.button-contacts-small-screen {
+		margin-top: 20px;
 	}
 	.about-me .photo-ksenia img {
 		width: 100%;
@@ -218,6 +252,9 @@ $mainColor: #c2073c;
 	.slides,
 	.slide {
 		height: 450px;
+	}
+	.slides {
+		margin-bottom: 25px;
 	}
 	.nav label {
 		font-size: 124pt;

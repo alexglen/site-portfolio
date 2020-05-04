@@ -39,7 +39,7 @@ $mainColor: #c2073c;
 	}
 	.text .description {
 		padding-left: 50px;
-		padding-top: 50px;
+		padding-top: 25px;
 	}
 	.photo-ksenia img {
 		max-width: 420px;
@@ -60,9 +60,11 @@ $mainColor: #c2073c;
 }
 
 .sertificate-small {
-	width: 180px;
-	margin-top: 10px;
 	cursor: pointer;
+	max-width: 920px;
+	margin: 0 auto;
+	width: 80%;
+	margin-top: 50px;
 }
 
 .sertificate-small img {
