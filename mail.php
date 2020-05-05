@@ -25,12 +25,5 @@ $topic=htmlspecialchars($topic);
 
 $address="alex_smoleev@gmail.com";
 
-$note_text="���� : $urok \r\n��� : $name \r\n Email : $email \r\n �������������� ���������� : $topic";
-
-if (isset($name)  &&  isset ($message) ) {
-mail($address,$urok,$note_text,"Content-type:text/plain; windows-1251"); 
-
-echo "<p style='color:#009900;'>���������(��) <b>$name1</b> ���� ������ ����������� �������. <br> �������. <br>��� ����� ������� �� ����� <b> $email</b>.</p>";
-}
 
 ?>
