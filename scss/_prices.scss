@@ -3,7 +3,7 @@
 $mainColor: #c2073c;
 
 .prices {
-	padding: 100px 30px 0 30px;
+	padding: 100px 30px 50px 30px;
 	h2 {
 		color: #111;
 		text-transform: uppercase;
@@ -34,7 +34,6 @@ $mainColor: #c2073c;
 		transform: translateY(5px);
 	}
 	h3 {
-		text-indent: 15px;
 		color: $mainColor;
 	}
 	p {

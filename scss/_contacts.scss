@@ -1,12 +1,16 @@
 // Contacts
 
 $mainColor: #c2073c;
+$hoverColor: #8a042a;
+.wrapper {
+	background-color: #212121;
+	color: white;
+}
 
 .contacts {
 	padding: 0 30px;
 	padding-top: 100px;
 	h2 {
-		color: #111;
 		text-transform: uppercase;
 		font-size: 36px;
 		position: relative;
@@ -68,7 +72,7 @@ $mainColor: #c2073c;
 				align-items: center;
 			}
 			button[type="submit"]:hover {
-				background-color: #343a40;
+				background-color: $hoverColor;
 				-webkit-transition: background 0.3s ease-in-out;
 				-moz-transition: background 0.3s ease-in-out;
 				transition: background-color 0.3s ease-in-out;
@@ -124,9 +128,9 @@ textarea:required {
 	.phone {
 		margin-left: 15px;
 		font-size: 1.125em;
+		color: white;
 		i {
 			margin-right: 7px;
-			color: $mainColor;
 		}
 		svg {
 			height: 1.35em;
@@ -136,17 +140,17 @@ textarea:required {
 		}
 		a {
 			text-decoration: none;
-			color: $mainColor;
-			span:hover {
-				color: #343a40;
+			color: white;
+			span,
+			strong {
+				&:hover {
+					color: $mainColor;
+				}
 			}
 		}
 	}
 	.mail {
 		margin-top: 25px;
-		span {
-			color: $mainColor;
-		}
 	}
 	.note {
 		font-size: 1em;
@@ -163,7 +167,7 @@ textarea:required {
 	.insta a {
 		color: #b47144;
 		&:hover {
-			color: hsl(24, 83%, 23%);
+			color: #f39759;
 		}
 	}
 	.vk a {
