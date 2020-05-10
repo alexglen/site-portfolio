@@ -338,6 +338,10 @@
     position: absolute;
     margin: 0 25px; }
 
+#all-link {
+  color: black;
+  text-decoration: underline; }
+
 .recomendations {
   padding: 100px 30px 0 30px; }
   .recomendations h2 {
