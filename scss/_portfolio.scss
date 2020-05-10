@@ -53,5 +53,7 @@ $mainColor: #c2073c;
 
 #all-link {
 	color: black;
-	text-decoration: underline;
+	&:hover {
+		color: $mainColor;
+	}
 }

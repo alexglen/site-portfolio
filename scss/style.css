@@ -339,8 +339,9 @@
     margin: 0 25px; }
 
 #all-link {
-  color: black;
-  text-decoration: underline; }
+  color: black; }
+  #all-link:hover {
+    color: #c2073c; }
 
 .recomendations {
   padding: 100px 30px 0 30px; }
