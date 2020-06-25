@@ -189,16 +189,6 @@
     border-right: 20px solid #c2073c;
     border-bottom: 20px solid #c2073c; }
 
-.spot {
-  color: #111;
-  text-transform: uppercase;
-  font-size: 67px;
-  background-image: url(../assets/spot.png);
-  background-size: 85px;
-  background-position: 30px top;
-  background-repeat: no-repeat;
-  position: relative; }
-
 .sertificate-small {
   cursor: pointer;
   max-width: 720px;
@@ -379,7 +369,7 @@
       border-left: 1px solid #c2073c;
       padding: 5px; }
   .recomendation .content {
-    padding: 3px 67px;
+    padding: 3px 77px;
     z-index: -1;
     border-radius: 5px;
     line-height: 1.75; }
@@ -456,7 +446,7 @@
   padding: 0;
   width: 80%;
   max-width: 1220px;
-  height: 480px;
+  height: 380px;
   display: block;
   margin: 0 auto;
   position: relative;
@@ -789,11 +779,6 @@ textarea:required {
   .home-section .name {
     font-size: 44px; }
 
-  .home-section .spot {
-    font-size: 44px;
-    background-size: 56px;
-    background-position: 19px top; }
-
   .about-me .text {
     flex-direction: column;
     align-items: center;
@@ -843,7 +828,7 @@ textarea:required {
 @media screen and (max-width: 768px) {
   .slides,
   .slide {
-    height: 540px; }
+    height: 400px; }
 
   .nav label {
     font-size: 124pt;
@@ -893,7 +878,7 @@ textarea:required {
 
   .slides,
   .slide {
-    height: 480px; }
+    height: 380px; }
 
   .nav label {
     font-size: 124pt;
@@ -917,6 +902,10 @@ textarea:required {
 
   .footer {
     padding: 20px 0; } }
+@media screen and (max-width: 540px) {
+  .slides,
+  .slide {
+    height: 460px; } }
 @media screen and (max-width: 480px) {
   .header {
     justify-content: space-around;
@@ -951,7 +940,7 @@ textarea:required {
 
   .slides,
   .slide {
-    height: 450px; }
+    height: 370px; }
 
   .slides {
     margin-bottom: 25px; }
@@ -993,7 +982,7 @@ textarea:required {
 @media screen and (max-width: 380px) {
   .slides,
   .slide {
-    height: 520px; } }
+    height: 500px; } }
 @media screen and (max-width: 360px) {
   .portfolio .sign {
     font-size: 1em; }

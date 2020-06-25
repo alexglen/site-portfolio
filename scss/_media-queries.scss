@@ -70,11 +70,6 @@ $mainColor: #c2073c;
 	.home-section .name {
 		font-size: 44px;
 	}
-	.home-section .spot {
-		font-size: 44px;
-		background-size: 56px;
-		background-position: 19px top;
-	}
 
 	.about-me .text {
 		flex-direction: column;
@@ -130,7 +125,7 @@ $mainColor: #c2073c;
 @media screen and (max-width: 768px) {
 	.slides,
 	.slide {
-		height: 540px;
+		height: 400px;
 	}
 	.nav label {
 		font-size: 124pt;
@@ -185,7 +180,7 @@ $mainColor: #c2073c;
 	}
 	.slides,
 	.slide {
-		height: 480px;
+		height: 380px;
 	}
 	.nav label {
 		font-size: 124pt;
@@ -209,6 +204,13 @@ $mainColor: #c2073c;
 	}
 	.footer {
 		padding: 20px 0;
+	}
+}
+
+@media screen and (max-width: 540px) {
+	.slides,
+	.slide {
+		height: 460px;
 	}
 }
 
@@ -251,7 +253,7 @@ $mainColor: #c2073c;
 
 	.slides,
 	.slide {
-		height: 450px;
+		height: 370px;
 	}
 	.slides {
 		margin-bottom: 25px;
@@ -298,7 +300,7 @@ $mainColor: #c2073c;
 @media screen and (max-width: 380px) {
 	.slides,
 	.slide {
-		height: 520px;
+		height: 500px;
 	}
 }
 
