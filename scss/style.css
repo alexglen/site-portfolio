@@ -71,6 +71,8 @@
   justify-content: space-between;
   margin-top: 180px;
   padding: 0 30px; }
+  .home-section .left {
+    padding-right: 40px; }
   .home-section .name {
     color: #111;
     text-transform: uppercase;
@@ -153,6 +155,23 @@
   .button-to-contacts:hover {
     color: #fff; }
 
+a.button-small {
+  font-weight: 700;
+  color: white;
+  text-decoration: none;
+  padding: 0.8em 1em calc(0.8em + 3px);
+  border-radius: 3px;
+  background: #c2073c;
+  box-shadow: 0 -3px #c2073c inset;
+  transition: 0.2s; }
+
+a.button-small:hover {
+  background: #771531; }
+
+a.button-small:active {
+  background: #c2073c;
+  box-shadow: 0 3px #9b0630 inset; }
+
 .about-me {
   padding: 100px 30px 0 30px; }
   .about-me h2 {
@@ -176,8 +195,7 @@
       padding-top: 20px;
       color: #444;
       line-height: 2;
-      font-size: 0.9rem;
-      text-indent: 20px; }
+      font-size: 0.9rem; }
     .about-me .text .subtitle {
       padding-top: 10px;
       font-style: italic; }
@@ -369,12 +387,10 @@
       border-left: 1px solid #c2073c;
       padding: 5px; }
   .recomendation .content {
-    padding: 3px 77px;
+    padding: 3px 20px 0 87px;
     z-index: -1;
     border-radius: 5px;
     line-height: 1.75; }
-    .recomendation .content p {
-      text-indent: 15px; }
 
 .main-information {
   margin-top: 100px;
@@ -488,7 +504,8 @@
   text-align: center;
   line-height: 380px;
   font-family: "Varela Round", sans-serif;
-  text-shadow: 0px 0px 15px #777777; }
+  text-shadow: 0px 0px 15px #777777;
+  padding: 0 10px; }
 
 .slide:hover + .nav label {
   opacity: 0.5; }
@@ -562,8 +579,6 @@ input#img-6:checked ~ .nav-dots label#img-dot-6 {
   width: 32%;
   margin-top: 25px;
   cursor: pointer; }
-  .price:hover {
-    transform: translateY(5px); }
   .price h3 {
     color: #c2073c; }
   .price p {
@@ -978,7 +993,11 @@ textarea:required {
     display: block; }
 
   .contacts-information .title {
-    font-size: 1.25em; } }
+    font-size: 1.25em; }
+
+  .footer {
+    text-align: left;
+    padding-left: 50px; } }
 @media screen and (max-width: 380px) {
   .slides,
   .slide {

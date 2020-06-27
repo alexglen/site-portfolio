@@ -30,9 +30,6 @@ $mainColor: #c2073c;
 	width: 32%;
 	margin-top: 25px;
 	cursor: pointer;
-	&:hover {
-		transform: translateY(5px);
-	}
 	h3 {
 		color: $mainColor;
 	}

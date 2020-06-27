@@ -38,13 +38,10 @@ $mainColor: #c2073c;
 		}
 	}
 	.content {
-		padding: 3px 77px;
+		padding: 3px 20px 0 87px;
 		z-index: -1;
 		border-radius: 5px;
 		line-height: 1.75;
-		p {
-			text-indent: 15px;
-		}
 	}
 }
 
@@ -181,8 +178,8 @@ $mainColor: #c2073c;
 	text-align: center;
 	line-height: 380px;
 	font-family: "Varela Round", sans-serif;
-	// background-color: rgba(255, 255, 255, 0.3);
 	text-shadow: 0px 0px 15px rgb(119, 119, 119);
+	padding: 0 10px;
 }
 
 .slide:hover + .nav label {

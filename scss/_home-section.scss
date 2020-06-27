@@ -7,6 +7,9 @@ $mainColor: #c2073c;
 	justify-content: space-between;
 	margin-top: 180px;
 	padding: 0 30px;
+	.left {
+		padding-right: 40px;
+	}
 	.name {
 		color: #111;
 		text-transform: uppercase;
@@ -96,4 +99,22 @@ $mainColor: #c2073c;
 	&:hover {
 		color: #fff;
 	}
+}
+
+a.button-small {
+	font-weight: 700;
+	color: white;
+	text-decoration: none;
+	padding: 0.8em 1em calc(0.8em + 3px);
+	border-radius: 3px;
+	background: $mainColor;
+	box-shadow: 0 -3px $mainColor inset;
+	transition: 0.2s;
+}
+a.button-small:hover {
+	background: #771531;
+}
+a.button-small:active {
+	background: $mainColor;
+	box-shadow: 0 3px #9b0630 inset;
 }
