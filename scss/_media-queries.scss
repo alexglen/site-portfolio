@@ -122,7 +122,7 @@ $mainColor: #c2073c;
 	}
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 868px) {
 	.slides,
 	.slide {
 		height: 400px;
@@ -207,10 +207,17 @@ $mainColor: #c2073c;
 	}
 }
 
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 610px) {
 	.slides,
 	.slide {
 		height: 460px;
+	}
+}
+
+@media screen and (max-width: 530px) {
+	.slides,
+	.slide {
+		height: 520px;
 	}
 }
 
@@ -253,14 +260,14 @@ $mainColor: #c2073c;
 
 	.slides,
 	.slide {
-		height: 370px;
+		height: 420px;
 	}
 	.slides {
 		margin-bottom: 25px;
 	}
 	.nav label {
 		font-size: 124pt;
-		line-height: 100px;
+		line-height: 650px;
 		height: 25%;
 	}
 	.recomendation .content {
@@ -301,10 +308,24 @@ $mainColor: #c2073c;
 	}
 }
 
+@media screen and (max-width: 420px) {
+	.slides,
+	.slide {
+		height: 480px;
+	}
+	.nav label {
+		font-size: 100pt;
+		line-height: 760px;
+	}
+}
+
 @media screen and (max-width: 380px) {
 	.slides,
 	.slide {
-		height: 500px;
+		height: 620px;
+	}
+	.nav label {
+		line-height: 1020px;
 	}
 }
 

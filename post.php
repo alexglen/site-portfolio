@@ -1,5 +1,6 @@
 
-<meta http-equiv='refresh' content='37; url=http://cy50309.tmweb.ru/'>
+<meta http-equiv='refresh' content='37; url=http://cw84419.tmweb.ru/'>
+                                            
 
 <meta charset="UTF-8" />
 
@@ -33,6 +34,6 @@ if ($send == 'true')
 
 // Если письмо не ушло — выводим сообщение об ошибке
 
-else {echo "Ой, что-то пошло не так";}
+else {echo "Ой, что-то пошло не так. Вернитесь назад";}
 
 ?>
