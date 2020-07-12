@@ -344,7 +344,7 @@ a.button-small {
 
 .wrapper-slider {
   height: 100%;
-  padding: 50px;
+  padding: 0 50px 75px 50px;
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -856,8 +856,7 @@ textarea:required {
 
 body {
   letter-spacing: 0.8px;
-  background-color: #f5f5f5;
-  font-display: swap; }
+  background-color: #f5f5f5; }
 
 .container {
   max-width: 1280px;
