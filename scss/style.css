@@ -155,7 +155,8 @@ a.button-small {
       padding-top: 20px;
       color: #444;
       line-height: 2;
-      font-size: 0.9rem; }
+      font-size: 0.9rem;
+      text-indent: 16px; }
     .about-me .text .subtitle {
       padding-top: 10px;
       font-style: italic; }
