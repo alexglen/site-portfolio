@@ -1,5 +1,5 @@
 
-<meta http-equiv='refresh' content='37; url=http://cw84419.tmweb.ru/'>
+<meta http-equiv='refresh' content='37; url=http://p572833.ihc.xyz/'>
                                             
 
 <meta charset="UTF-8" />
@@ -25,7 +25,7 @@ $mes = "Имя: $name \nE-mail: $email \nТема: $topic \nТекст: $message
 
 // Если нужно, чтобы письма всё время уходили на ваш адрес — замените первую переменную $email на свой адрес электронной почты
 
-$send = mail ('alexsmoleev1990@gmail.ru',$topic,$mes,"Content-type:text/plain; charset = UTF-8\r\nFrom:$email");
+$send = mail ('text@mail.ru',$topic,$mes,"Content-type:text/plain; charset = UTF-8\r\nFrom:$email");
 
 
 if ($send == 'true')
